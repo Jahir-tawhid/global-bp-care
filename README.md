@@ -44,5 +44,14 @@ Install dependencies:Bashnpm install
 Run the development server:Bashnpm run dev
 Open http://localhost:5173 in your browser to view the application.📋 Medical BP Categories ReferenceCategorySystolic (mmHg)Diastolic (mmHg)Dynamic ColorLow BP< 90OR < 60🟦 BlueNormal90–119AND 60–79🟩 GreenElevated120–129AND < 80🟨 YellowHigh BP (Stage 1)130–139OR 80–89🟧 OrangeHigh BP (Stage 2)>= 140OR >= 90🟥 Red
 
+
+📬 Contact Me Feel free to reach out for collaborations or questions regarding the project logic:
+
+📧 Email: https://www.jahirtawhid1988@gmail.com
+
+🔗 LinkedIn: https://linkedin.com/in/jahirtawhid
+
+🖥️ Live Link: https://jahir-tawhid.github.io/Smart-Weather-App/
+
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
