@@ -1,6 +1,4 @@
-// src/components/BPForm.jsx
-
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function BPForm({ onCheck }) {
   const [systolic, setSystolic] = useState("");
