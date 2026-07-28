@@ -66,5 +66,6 @@ Open http://localhost:5173 in your browser to view the application.📋 Medical 
 
 🖥️ Live Link:  https://jahir-tawhid.github.io/global-bp-care/
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+📄Disclaimer:
+
+This app is for informational purposes only. Always consult a registered  physician for medical advice.
