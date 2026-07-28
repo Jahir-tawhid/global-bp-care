@@ -1,16 +1,48 @@
-# React + Vite
+# 🩺 Global BP Care
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React web application designed to evaluate blood pressure readings, visually categorize BP categories with dynamic color-coded UI cards, and provide country-specific medicine recommendations tailored for **20+ countries**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📊 **Accurate BP Evaluation:** Categorizes readings into 5 stages (Low BP, Normal, Elevated, High BP Stage 1, High BP Stage 2).
+- 🎨 **Dynamic UI Color Coding:** Color-coded visual indicator cards (Blue, Green, Yellow, Orange, Red) for instant feedback.
+- 🌍 **Global Support (20+ Countries):** Dynamic medicine suggestion system tailored based on the user's selected country.
+- 🔄 **Rotating Medicine Card:** Displays randomized relevant recommendations on every check.
+- ⚠️ **Medical Disclaimer:** Integrated safety disclaimer adhering to basic medical web application guidelines.
+- 📱 **Fully Responsive:** Styled with Tailwind CSS for seamless experience across mobile, tablet, and desktop screens.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Authentication:** Firebase Auth
+- **Icons & UI:** Lucide React / Tailwind UI
+- **Version Control:** Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/          # Static media assets
+├── components/      # Reusable UI components (BPForm, MedicineList, CountrySelector, etc.)
+├── data/            # Local data sources (medicinesData for 20+ countries)
+├── pages/           # Application views (BloodPressurePage)
+├── App.jsx          # Root component & layout router
+└── main.jsx         # Application entry point
+```
+🚀 Getting StartedFollow these steps to run the project locally on your machine:PrerequisitesMake sure you have Node.js and npm installed.InstallationClone the repository:Bashgit clone [https://github.com/your-username/global-bp-care.git](https://github.com/Jahir-tawhid/global-bp-care.git)
+
+Navigate to the project directory:Bashcd global-bp-care
+
+Install dependencies:Bashnpm install
+Run the development server:Bashnpm run dev
+Open http://localhost:5173 in your browser to view the application.📋 Medical BP Categories ReferenceCategorySystolic (mmHg)Diastolic (mmHg)Dynamic ColorLow BP< 90OR < 60🟦 BlueNormal90–119AND 60–79🟩 GreenElevated120–129AND < 80🟨 YellowHigh BP (Stage 1)130–139OR 80–89🟧 OrangeHigh BP (Stage 2)>= 140OR >= 90🟥 Red
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
