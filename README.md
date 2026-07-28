@@ -1,6 +1,6 @@
 # 🩺 Global BP Care
 
-A modern, responsive React web application designed to evaluate blood pressure readings, visually categorize BP categories with dynamic color-coded UI cards, and provide country-specific medicine recommendations tailored for **20+ countries**.
+A modern, responsive React web application designed to evaluate blood pressure readings, visually categorize BP categories with dynamic color-coded UI cards, and provide country-specific medicine recommendations tailored for **20 countries**.
 
 ---
 
@@ -36,7 +36,7 @@ src/
 ├── App.jsx          # Root component & layout router
 └── main.jsx         # Application entry point
 ```
-🚀 Getting StartedFollow these steps to run the project locally on your machine:PrerequisitesMake sure you have Node.js and npm installed.InstallationClone the repository:Bashgit clone [https://github.com/your-username/global-bp-care.git](https://github.com/Jahir-tawhid/global-bp-care.git)
+🚀 Getting StartedFollow these steps to run the project locally on your machine:PrerequisitesMake sure you have Node.js and npm installed.InstallationClone the repository.
 
 Navigate to the project directory:Bashcd global-bp-care
 
@@ -51,7 +51,7 @@ Open http://localhost:5173 in your browser to view the application.📋 Medical 
 
 🔗 LinkedIn: https://linkedin.com/in/jahirtawhid
 
-🖥️ Live Link: https://jahir-tawhid.github.io/Smart-Weather-App/
+🖥️ Live Link:  https://jahir-tawhid.github.io/global-bp-care/
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
